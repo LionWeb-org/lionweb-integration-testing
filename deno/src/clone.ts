@@ -9,23 +9,22 @@ const repos = {
     TypeScript: "lioncore-typescript"
 } as const
 
-const branch = "main"
 const reposDir = "repos"
 
 const token = Deno.env.get("LIONWEB_PAT")
 
 
 const cloneRepo = (name: string, repoId: string) => {
-    const message = `"${branch}" branch of ${name}-repo "${repoId}"`
-    console.log(`Cloning ${message}...`)
     const localRepoDir = `${reposDir}/${repoId}`
     const url = `https://${token === undefined ? "" : `${token}@`}github.com/LIonWeb-org/${repoId}`
     return exec(`rm -rf ${localRepoDir}`)
-        .then(() => exec(`npx tiged --mode=git --force ${url} -b ${branch} ${localRepoDir}`))
+        .then(() => exec(`git clone --depth 1 ${url} ${localRepoDir}`))
+            // Note: Git exits silently on failure!
         .then(() => {
-            console.log(`...done cloning ${message}`)
+            console.log(`cloned ${name}-repo: ${repoId} -> ${localRepoDir}`)
         })
 }
+// TODO  error handling
 
 
 Promise.all(
