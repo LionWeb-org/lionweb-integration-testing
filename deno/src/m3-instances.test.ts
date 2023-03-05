@@ -1,7 +1,4 @@
-import {
-    assertEquals,
-    fail
-} from "./deps.ts"
+import {assertEquals, fail} from "./deps.ts"
 import {
     readFileAsJson
 } from "../../repos/lioncore-typescript/src/utils/json.ts"
@@ -14,7 +11,7 @@ import {
 import {
     createJsonValidatorForSchema
 } from "../../repos/lioncore-typescript/src/m3/test/json-validator.ts"
-import {fromRoot, pathOfSchema, pathOfSerialization} from "./paths.ts"
+import {fromRoot, pathOfSchema, pathOfSerialization} from "./config.ts"
 
 
 Deno.test("M3 instances (Deno)", async (tctx) => {

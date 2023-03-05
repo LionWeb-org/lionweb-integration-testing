@@ -1,3 +1,15 @@
+repositories:
+  - name: Org
+    id: organization
+  - name: Java
+    id: lioncore-java
+  - name: MPS
+    id: lioncore-mps
+  - name: OpenAPI
+    id: lioncore-openapi
+  - name: TypeScript
+    id: lioncore-typescript
+
 serializations:
   - path: lioncore-java/core/src/test/resources/serialization/lioncore.json
     kind: m3
