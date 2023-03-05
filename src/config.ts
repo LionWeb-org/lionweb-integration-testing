@@ -29,7 +29,7 @@ type Schema = {
 export type { Config, ModelKind, RepositoryKind, Schema, Serialization }
 
 
-export const config = (await new YamlLoader().parseFile("../config.yaml")) as Config
+export const config = (await new YamlLoader().parseFile("config.yaml")) as Config
 
 export const pathOfSerialization = (kind: ModelKind, repo: RepositoryKind): string =>
     config.serializations

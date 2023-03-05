@@ -1,4 +1,4 @@
 #!/bin/sh -e
 
-cd deno && deno task clone
+deno task clone
 

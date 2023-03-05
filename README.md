@@ -6,10 +6,10 @@ Kick off all the tests by running the following command on the CLI:
 
 ```
 $ ./clone.sh
-$ cd deno && deno task run-tests
+$ ./test.sh
 ```
 
-The first command clones (using [`tiged`](https://github.com/tiged/tiged) &lrarr; `degit` = “de-Git”) all the other LIonWeb repositories.
+The first command clones all the other LIonWeb repositories.
 The second command runs the integration test suite which is implemented in Deno.
 The same commands are run as a GitHub Action named "LIonWeb integration tests".
 The integration tests do not run the automated tests in the other repositories.
