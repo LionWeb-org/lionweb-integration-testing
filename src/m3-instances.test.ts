@@ -1,7 +1,7 @@
 import {assertEquals, fail} from "./deps.ts"
 import {
     readFileAsJson
-} from "../../repos/lioncore-typescript/src/utils/json.ts"
+} from "../../repos/lioncore-typescript/src-test/utils/json.ts"
 import {
     deserializeMetamodel
 } from "../../repos/lioncore-typescript/src/m3/deserializer.ts"
@@ -10,7 +10,7 @@ import {
 } from "../../repos/lioncore-typescript/src/serialization.ts"
 import {
     createJsonValidatorForSchema
-} from "../../repos/lioncore-typescript/src/m3/test/json-validator.ts"
+} from "../../repos/lioncore-typescript/src-test/m3/json-validator.ts"
 import {fromRoot, pathOfSchema, pathOfSerialization} from "./config.ts"
 
 
