@@ -1,0 +1,11 @@
+{
+  "serializationFormatVersion": "1",
+  "languages": [
+    {
+      "key": "a",
+      "version": "1",
+      "info": "should not be here"
+    }
+  ],
+  "nodes": []
+}

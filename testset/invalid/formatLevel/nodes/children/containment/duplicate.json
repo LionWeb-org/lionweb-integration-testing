@@ -1,0 +1,38 @@
+{
+  "serializationFormatVersion": "1",
+  "languages": [
+    {
+      "key": "myLang",
+      "version": "1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a",
+      "concept": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "children": [
+        {
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": [],
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          }
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}
