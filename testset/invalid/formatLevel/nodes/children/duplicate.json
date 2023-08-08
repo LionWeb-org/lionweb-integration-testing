@@ -9,6 +9,18 @@
   "nodes": [
     {
       "id": "a",
+      "children": [
+        {
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": [
+            "10"
+          ]
+        }
+      ],
       "concept": {
         "language": "myLang",
         "version": "1",
@@ -22,8 +34,7 @@
             "version": "1",
             "key": "myConcept-cont"
           },
-          "children": ["10"],
-          "children": ["20"]
+          "children": []
         }
       ],
       "references": [],

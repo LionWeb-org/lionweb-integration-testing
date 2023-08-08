@@ -22,8 +22,7 @@
             "version": "1",
             "key": "myConcept-cont"
           },
-          "children": ["10"],
-          "children": ["20"]
+          "children": null
         }
       ],
       "references": [],

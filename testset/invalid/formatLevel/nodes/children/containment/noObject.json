@@ -19,7 +19,6 @@
         {
           "containment": [{
             "language": "myLang",
-            "lala": null,
             "version": "1",
             "key": "myConcept-cont"
           }],

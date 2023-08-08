@@ -15,18 +15,20 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [
+      "children": [],
+      "references": [
         {
-          "containment": {
-            "language": "myLang",
-            "version": "1",
-            "key": "myConcept-cont"
-          },
-          "children": ["10"],
-          "children": ["20"]
+          "reference": [
+            {
+              "language": "myLang",
+              "version": "1",
+              "key": "myConcept-ref",
+              "this is": "more"
+            }
+          ],
+          "targets": []
         }
       ],
-      "references": [],
       "annotations": [],
       "parent": null
     }

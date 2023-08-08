@@ -15,18 +15,7 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [
-        {
-          "containment": {
-            "language": "myLang",
-            "version": "1",
-            "key": "myConcept-cont"
-          },
-          "children": ["10"],
-          "children": ["20"]
-        }
-      ],
-      "references": [],
+      "children": [],
       "annotations": [],
       "parent": null
     }

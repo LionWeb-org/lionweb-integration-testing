@@ -22,8 +22,11 @@
             "version": "1",
             "key": "myConcept-cont"
           },
-          "children": ["10"],
-          "children": ["20"]
+          "children": [
+            "x",
+            "y",
+            "y"
+          ]
         }
       ],
       "references": [],

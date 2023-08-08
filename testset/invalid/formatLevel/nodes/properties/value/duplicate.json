@@ -14,18 +14,18 @@
         "version": "1",
         "key": "myConcept"
       },
-      "properties": [],
-      "children": [
+      "properties": [
         {
-          "containment": {
+          "property": {
             "language": "myLang",
             "version": "1",
-            "key": "myConcept-cont"
+            "key": "myConcept-prop"
           },
-          "children": ["10"],
-          "children": ["20"]
+          "value": "hello",
+          "value": "bye"
         }
       ],
+      "children": [],
       "references": [],
       "annotations": [],
       "parent": null
