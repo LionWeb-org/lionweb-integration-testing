@@ -21,7 +21,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "My Language"
+          "value": "MyLanguage"
         },
         {
           "property": {
@@ -80,7 +80,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "My Concept"
+          "value": "MyConcept"
         },
         {
           "property": {
@@ -150,7 +150,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "String Property"
+          "value": "StringProperty"
         },
         {
           "property": {
@@ -202,7 +202,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Boolean Property"
+          "value": "BooleanProperty"
         },
         {
           "property": {
@@ -254,7 +254,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Integer Property"
+          "value": "IntegerProperty"
         },
         {
           "property": {
@@ -306,7 +306,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "JSON Property"
+          "value": "JSONProperty"
         },
         {
           "property": {
@@ -358,7 +358,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Enumeration Property"
+          "value": "EnumerationProperty"
         },
         {
           "property": {
@@ -402,7 +402,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Enumeration A"
+          "value": "EnumerationA"
         },
         {
           "property": {
@@ -445,7 +445,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Enumeration A Literal A"
+          "value": "EnumerationALiteralA"
         },
         {
           "property": {
@@ -475,7 +475,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Enumeration A Literal B"
+          "value": "EnumerationALiteralB"
         },
         {
           "property": {
@@ -505,7 +505,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Enumeration A Literal C"
+          "value": "EnumerationALiteralC"
         },
         {
           "property": {
@@ -535,7 +535,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Enumeration B"
+          "value": "EnumerationB"
         },
         {
           "property": {
@@ -576,7 +576,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "Enumeration B Literal A"
+          "value": "EnumerationBLiteralA"
         },
         {
           "property": {
