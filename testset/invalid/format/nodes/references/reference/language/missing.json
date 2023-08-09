@@ -1,0 +1,32 @@
+{
+  "serializationFormatVersion": "1",
+  "languages": [
+    {
+      "key": "myLang",
+      "version": "1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a",
+      "concept": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "version": "1",
+            "key": "myConcept-ref"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}

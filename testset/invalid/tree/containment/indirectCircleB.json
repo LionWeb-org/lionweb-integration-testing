@@ -1,0 +1,83 @@
+{
+  "serializationFormatVersion": "1",
+  "languages": [
+    {
+      "key": "myLang",
+      "version": "1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "grandParent",
+      "concept": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "children": [
+        {
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": [
+            "parent"
+          ]
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": "child"
+    },
+    {
+      "id": "parent",
+      "concept": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "children": [
+        {
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": [
+            "child"
+          ]
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": "grandParent"
+    },
+    {
+      "id": "child",
+      "concept": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "children": [
+        {
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": [
+            "grandParent"
+          ]
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": "parent"
+    }
+  ]
+}

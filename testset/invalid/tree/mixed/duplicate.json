@@ -1,0 +1,63 @@
+{
+  "serializationFormatVersion": "1",
+  "languages": [
+    {
+      "key": "myLang",
+      "version": "1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "parent1",
+      "concept": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "children": [
+        {
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": [
+            "child"
+          ]
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    },
+    {
+      "id": "parent2",
+      "concept": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "children": [],
+      "references": [],
+      "annotations": [
+        "child"
+      ],
+      "parent": null
+    },
+    {
+      "id": "child",
+      "concept": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "children": [],
+      "references": [],
+      "annotations": [],
+      "parent": "parent1"
+    }
+  ]
+}
