@@ -21,26 +21,22 @@
       "parent": null
     },
     {
-      "id": "b",
-      "concept": {
-        "language": "myLang",
-        "version": "1",
-        "key": "myConcept"
-      },
-      "properties": [],
-      "children": [],
-      "references": [],
-      "annotations": [],
-      "parent": null
-    },
-    {
       "id": "a",
       "concept": {
         "language": "myLang",
         "version": "1",
-        "key": "myConcept"
+        "key": "myOtherConcept"
       },
-      "properties": [],
+      "properties": [
+        {
+          "property": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myProp"
+          },
+          "value": "hello"
+        }
+      ],
       "children": [],
       "references": [],
       "annotations": [],
