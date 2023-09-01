@@ -1,12 +1,12 @@
 import {assertEquals, fail} from "./deps.ts"
 import {
     readFileAsJson
-} from "../../repos/lioncore-typescript/src-test/utils/json.ts"
+} from "../../repos/lioncore-typescript/src-utils/json.ts"
 import {
-    deserializeMetamodel
+    deserializeLanguage
 } from "../../repos/lioncore-typescript/src/m3/deserializer.ts"
 import {
-    SerializedModel
+    SerializationChunk
 } from "../../repos/lioncore-typescript/src/serialization.ts"
 import {
     createJsonValidatorForSchema
@@ -34,7 +34,7 @@ Deno.test("M3 instances (Deno)", async (tctx) => {
 
     await tctx.step("check whether Java serialization of LIonCore/M3 deserializes in TypeScript impl. (no assertions)", async () => {
         const serializationJava = await readFileAsJson(fromRoot(pathOfSerialization("m3", "Java")))
-        /* const deserializationJava = */ deserializeMetamodel(serializationJava as SerializedModel)
+        /* const deserializationJava = */ deserializeLanguage(serializationJava as SerializationChunk)
     })
 
     await tctx.step("check whether Java and TypeScript serializations match", async () => {
