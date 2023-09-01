@@ -38,7 +38,7 @@
       "concept": {
         "language": "myLang",
         "version": "1",
-        "key": "otherConcept"
+        "key": "myConcept"
       },
       "properties": [],
       "children": [],
