@@ -8,7 +8,7 @@ import {fromRoot, pathOfSerialization} from "./config.ts"
 
 Deno.test("M3 instances (Deno)", async (tctx) => {
 
-    await tctx.step("check whether Java serialization of LIonCore/M3 deserializes in TypeScript impl. (no assertions)", async () => {
+    await tctx.step("check whether Java serialization of LionCore/M3 deserializes in TypeScript impl. (no assertions)", async () => {
         const serializationJava = await readFileAsJson(fromRoot(pathOfSerialization("m3", "Java")))
         /* const deserializationJava = */ deserializeLanguage(serializationJava as SerializationChunk)
     })

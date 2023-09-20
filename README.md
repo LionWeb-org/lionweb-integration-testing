@@ -1,6 +1,6 @@
-# LIonWeb integration testing
+# LionWeb integration testing
 
-Automated tests that check that the other repos within the [LIonWeb GitHub](https://github.com/LIonWeb-org) integrate well and consistently with each other.
+Automated tests that check that the other repos within the [LionWeb GitHub](https://github.com/LionWeb-org) integrate well and consistently with each other.
 
 Kick off all the tests by running the following command on the CLI:
 
@@ -9,9 +9,9 @@ $ ./clone.sh
 $ ./test.sh
 ```
 
-The first command clones all the other LIonWeb repositories.
+The first command clones all the other LionWeb repositories.
 The second command runs the integration test suite which is implemented in Deno.
-The same commands are run as a GitHub Action named "LIonWeb integration tests".
+The same commands are run as a GitHub Action named "LionWeb integration tests".
 The integration tests do not run the automated tests in the other repositories.
 
 
