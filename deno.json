@@ -4,5 +4,9 @@
     "run-tests": "deno test --allow-read src/",
     "watch-tests": "deno test --watch --allow-read src/",
     "lock-deps": "deno cache --reload --lock=deno.lock --lock-write src/deps.ts"
+  },
+  "imports": {
+    "lionweb-core": "npm:@lionweb/core@0.5.0-beta.0",
+    "lionweb-utilities": "npm:@lionweb/utilities@0.1.0-beta.0"
   }
 }
