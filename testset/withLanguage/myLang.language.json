@@ -9,7 +9,7 @@
   "nodes": [
     {
       "id": "lang-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Language"
@@ -68,7 +68,7 @@
     },
     {
       "id": "myConcept-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Concept"
@@ -138,7 +138,7 @@
     },
     {
       "id": "stringProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -190,7 +190,7 @@
     },
     {
       "id": "booleanProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -242,7 +242,7 @@
     },
     {
       "id": "integerProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -294,7 +294,7 @@
     },
     {
       "id": "jsonProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -346,7 +346,7 @@
     },
     {
       "id": "enumAProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -398,7 +398,7 @@
     },
     {
       "id": "enumA-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Enumeration"
@@ -441,7 +441,7 @@
     },
     {
       "id": "enumA-literalA-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "EnumerationLiteral"
@@ -471,7 +471,7 @@
     },
     {
       "id": "enumA-literalB-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "EnumerationLiteral"
@@ -501,7 +501,7 @@
     },
     {
       "id": "enumA-literalC-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "EnumerationLiteral"
@@ -531,7 +531,7 @@
     },
     {
       "id": "enumB-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Enumeration"
@@ -572,7 +572,7 @@
     },
     {
       "id": "enumB-literalA-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "EnumerationLiteral"
@@ -602,7 +602,7 @@
     },
     {
       "id": "mySubConcept-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Concept"
@@ -682,7 +682,7 @@
     },
     {
       "id": "subStringProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -734,7 +734,7 @@
     },
     {
       "id": "mySubSubConcept-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Concept"
@@ -805,7 +805,7 @@
     },
     {
       "id": "subSubStringProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -857,7 +857,7 @@
     },
     {
       "id": "myOtherConcept-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Concept"
@@ -928,7 +928,7 @@
     },
     {
       "id": "otherIntegerProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -980,7 +980,7 @@
     },
     {
       "id": "myIface-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "ConceptInterface"
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "ifaceStringProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -1082,7 +1082,7 @@
     },
     {
       "id": "otherIface-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "ConceptInterface"
@@ -1137,7 +1137,7 @@
     },
     {
       "id": "otherIfaceStringProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -1189,7 +1189,7 @@
     },
     {
       "id": "subIface-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "ConceptInterface"
@@ -1244,7 +1244,7 @@
     },
     {
       "id": "subIfaceStringProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -1296,7 +1296,7 @@
     },
     {
       "id": "combinedIface-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "ConceptInterface"
@@ -1355,7 +1355,7 @@
     },
     {
       "id": "combinedIfaceStringProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
@@ -1407,7 +1407,7 @@
     },
     {
       "id": "separateIface-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "ConceptInterface"
@@ -1457,7 +1457,7 @@
     },
     {
       "id": "separateIfaceStringProp-id",
-      "concept": {
+      "classifier": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"

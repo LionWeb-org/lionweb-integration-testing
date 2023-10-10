@@ -9,7 +9,7 @@
   "nodes": [
     {
       "id": "parent1",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myConcept"
@@ -33,7 +33,7 @@
     },
     {
       "id": "parent2",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myConcept"
@@ -57,7 +57,7 @@
     },
     {
       "id": "child",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myConcept"

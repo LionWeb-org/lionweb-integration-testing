@@ -8,7 +8,7 @@
   ],
   "nodes": {
     "id": "a",
-    "concept": {
+    "classifier": {
       "language": "myLang",
       "version": "1",
       "key": "myConcept"

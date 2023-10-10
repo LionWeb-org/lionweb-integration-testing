@@ -9,7 +9,7 @@
   "nodes": [
     {
       "id": "a",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "0-hallo_HALLO31",
         "key": "myConcept"
