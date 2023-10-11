@@ -7,7 +7,7 @@ const token = Deno.env.get("LIONWEB_PAT")
 
 const cloneRepo = (name: string, repoId: string) => {
     const localRepoDir = fromRoot(repoId)
-    const url = `https://${token === undefined ? "" : `${token}@`}github.com/LionWeb-org/${repoId}`
+    const url = `https://${token === undefined ? "" : `${token}@`}github.com/LionWeb-io/${repoId}`
     return exec(`rm -rf ${localRepoDir}`)
         .then(() => exec(`git clone --depth 1 ${url} ${localRepoDir}`))
             // Note: Git exits silently on failure!
