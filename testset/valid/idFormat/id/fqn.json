@@ -9,7 +9,7 @@
   "nodes": [
     {
       "id": "com-example-my-org-SomeClass-v22_2",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myConcept"

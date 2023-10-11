@@ -9,7 +9,7 @@
   "nodes": [
     {
       "id": " ",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myConcept"

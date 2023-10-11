@@ -9,7 +9,7 @@
   "nodes": [
     {
       "id": "node",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myConcept"
@@ -24,7 +24,7 @@
     },
     {
       "id": "annGrandParent",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myAnnotation"
@@ -39,7 +39,7 @@
     },
     {
       "id": "annParent",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myAnnotation"
@@ -54,7 +54,7 @@
     },
     {
       "id": "annChild",
-      "concept": {
+      "classifier": {
         "language": "myLang",
         "version": "1",
         "key": "myAnnotation"
