@@ -1,6 +1,6 @@
 # LionWeb integration testing
 
-Automated tests that check that the other repos within the [LionWeb GitHub](https://github.com/LionWeb-org) integrate well and consistently with each other.
+Automated tests that check that the other repos within the [LionWeb GitHub](https://github.com/LionWeb-io) integrate well and consistently with each other.
 
 Kick off all the tests by running the following command on the CLI:
 
