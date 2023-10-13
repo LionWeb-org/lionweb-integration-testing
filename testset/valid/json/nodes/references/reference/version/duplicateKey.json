@@ -20,8 +20,8 @@
         {
           "reference": {
             "language": "myLang",
-            "version": "1",
             "version": "2",
+            "version": "1",
             "key": "myConcept-ref"
           },
           "targets": []
