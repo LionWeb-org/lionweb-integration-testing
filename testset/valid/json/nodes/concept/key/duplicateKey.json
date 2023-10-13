@@ -10,7 +10,7 @@
     {
       "id": "a",
       "classifier": {
-        "language": "myLanguage",
+        "language": "myLang",
         "version": "1",
         "key": "myConcept",
         "key": "myConcept"
