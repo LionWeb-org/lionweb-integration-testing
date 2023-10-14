@@ -1,5 +1,6 @@
 # IntelliJ IDEA:
 /.idea/
 
-/repos/
+# isnt' parsed by the GitHub Action:
+/deno.lock
 
