@@ -959,7 +959,7 @@
           "value": "myOtherConcept-otherIntegerProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1003,7 +1003,7 @@
           "value": "myIface"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1061,7 +1061,7 @@
           "value": "myIface-ifaceStringProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1105,7 +1105,7 @@
           "value": "otherIface"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1168,7 +1168,7 @@
           "value": "otherIface-ifaceStringProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1212,7 +1212,7 @@
           "value": "subIface"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1275,7 +1275,7 @@
           "value": "subIface-ifaceStringProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1319,7 +1319,7 @@
           "value": "combinedIface"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1386,7 +1386,7 @@
           "value": "combinedIface-ifaceStringProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1430,7 +1430,7 @@
           "value": "separateIface"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1488,7 +1488,7 @@
           "value": "separateIface-ifaceStringProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
