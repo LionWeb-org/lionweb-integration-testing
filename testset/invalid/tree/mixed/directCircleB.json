@@ -15,7 +15,7 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "annParent"
@@ -30,7 +30,7 @@
         "key": "myAnnotation"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "node"

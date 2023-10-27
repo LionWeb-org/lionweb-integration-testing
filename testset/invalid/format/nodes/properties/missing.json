@@ -14,7 +14,7 @@
         "version": "1",
         "key": "myConcept"
       },
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null

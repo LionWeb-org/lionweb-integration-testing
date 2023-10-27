@@ -15,7 +15,7 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "annGrandParent"
@@ -30,7 +30,7 @@
         "key": "myAnnotation"
       },
       "properties": [],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "myLang",
@@ -54,7 +54,7 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "annChild"
@@ -69,7 +69,7 @@
         "key": "myAnnotation"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "node"

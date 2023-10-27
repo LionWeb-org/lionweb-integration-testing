@@ -1,0 +1,33 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "1",
+      "version": "1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a",
+      "classifier": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "containments": [
+        {
+          "containment": {
+            "language": 1,
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": []
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}

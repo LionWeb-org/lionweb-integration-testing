@@ -24,7 +24,7 @@
           "value": "{ \"key\": \"my value\",\n\"myArray\": [1, -2, true] }"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null

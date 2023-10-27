@@ -1,0 +1,45 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "myLang",
+      "version": "1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a",
+      "containments": [
+        {
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": [
+            "10"
+          ]
+        }
+      ],
+      "classifier": {
+        "language": "myLang",
+        "version": "1",
+        "key": "myConcept"
+      },
+      "properties": [],
+      "containments": [
+        {
+          "containment": {
+            "language": "myLang",
+            "version": "1",
+            "key": "myConcept-cont"
+          },
+          "children": []
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}

@@ -15,7 +15,7 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         {
