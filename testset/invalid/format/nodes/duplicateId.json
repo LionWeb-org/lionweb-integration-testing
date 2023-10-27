@@ -15,7 +15,7 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null
@@ -37,7 +37,7 @@
           "value": "hello"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null

@@ -22,7 +22,7 @@
             "version": "a",
             "key": "myConcept-cont"
           },
-          "containments": []
+          "children": []
         }
       ],
       "references": [],
