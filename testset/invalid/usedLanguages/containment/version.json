@@ -15,14 +15,14 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "myLang",
             "version": "a",
             "key": "myConcept-cont"
           },
-          "children": []
+          "containments": []
         }
       ],
       "references": [],

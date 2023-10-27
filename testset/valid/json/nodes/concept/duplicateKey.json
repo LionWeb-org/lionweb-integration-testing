@@ -20,7 +20,7 @@
         "key": "myOtherConcept"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null

@@ -24,7 +24,7 @@
           "value": "enumA-literalA-id"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null
