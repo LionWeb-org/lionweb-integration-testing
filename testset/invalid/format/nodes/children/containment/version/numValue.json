@@ -19,7 +19,7 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "myLang2",

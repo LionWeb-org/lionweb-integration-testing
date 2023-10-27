@@ -10,7 +10,7 @@
     {
       "id": "a",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null

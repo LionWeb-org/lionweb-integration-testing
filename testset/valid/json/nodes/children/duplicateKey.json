@@ -9,7 +9,7 @@
   "nodes": [
     {
       "id": "a",
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "myLang",
@@ -27,7 +27,7 @@
         "key": "myConcept"
       },
       "properties": [],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "myLang",

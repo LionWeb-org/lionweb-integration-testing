@@ -15,7 +15,7 @@
         "key": "com-example-my-org-SomeClass-v22_2"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null
