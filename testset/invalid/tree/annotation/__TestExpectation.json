@@ -1,0 +1,45 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "duplicate.json",
+      "error": "LanguageUnknown"
+    },
+    {
+      "file": "directCircleA.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "directCircleB.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "directCircleC.json",
+      "error": "ParentMissingInChild"
+    },
+    {
+      "file": "directCircleD.json",
+      "error": "CirculairParent"
+    },
+    {
+      "file": "indirectCircleA.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "indirectCircleB.json",
+      "error": "CirculairParent"
+    },
+    {
+      "file": "indirectCircleC.json",
+      "error": "ParentMissingInChild"
+    },
+    {
+      "file": "missingAnnotation.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "missingParent.json",
+      "error": "ParentMissingInChild"
+    }
+  ]
+}
