@@ -1,0 +1,33 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "duplicateValue.json",
+      "error": "Duplicates"
+    },
+    {
+      "file": "emptyMember.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "missing.json",
+      "error": "PropertyMissing"
+    },
+    {
+      "file": "nullMember.json",
+      "error": "ArrayContainsNull"
+    },
+    {
+      "file": "nullValue.json",
+      "error": "PropertyNull"
+    },
+    {
+      "file": "numMember.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "objectMember.json",
+      "error": "PropertyTypeIncorrect"
+    }
+  ]
+}

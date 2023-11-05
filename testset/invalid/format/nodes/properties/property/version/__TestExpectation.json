@@ -1,0 +1,22 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "empty.json",
+      "error": "VersionFormat"
+    },
+    {
+      "file": "missing.json",
+      "error": "PropertyMissing"
+    },
+    {
+      "file": "nullValue.json",
+      "error": "LanguageUnknown",
+      "TODO": "should give an error on key format being null"
+    },
+    {
+      "file": "numValue.json",
+      "error": "PropertyTypeIncorrect"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "empty.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "missing.json",
+      "error": "PropertyMissing"
+    },
+    {
+      "file": "nullValue.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "numValue.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "space.json",
+      "error": "KeyFormat"
+    }
+  ]
+}
