@@ -1,0 +1,49 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "directCircleA.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "directCircleB.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "directCircleC.json",
+      "error": "ParentMissingInChild"
+    },
+    {
+      "file": "directCircleD.json",
+      "error": "CirculairParent"
+    },
+    {
+      "file": "duplicate.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "indirectCircleA.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "indirectCircleB.json",
+      "error": "CirculairParent"
+    },
+    {
+      "file": "indirectCircleC.json",
+      "error": "ParentMissingInChild"
+    },
+    {
+      "file": "missingAnnotation.json",
+      "error": "ChildMissingInParent"
+    },
+    {
+      "file": "missingParent.json",
+      "error": "ParentMissingInChild"
+    },
+    {
+      "file": "self.json",
+      "error": "ParentMissingInChild"
+    }
+  ]
+}

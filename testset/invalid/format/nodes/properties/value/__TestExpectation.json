@@ -1,0 +1,24 @@
+{
+  "errors": [
+    {
+      "file": "arrayValue.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "booleanValue.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "missing.json",
+      "error": "PropertyMissing"
+    },
+    {
+      "file": "numValue.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "objectValue.json",
+      "error": "PropertyTypeIncorrect"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "ampersand.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "at.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "colon.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "containingSpace.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "dot.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "doubleBackslash.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "empty.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "hash.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "percent.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "pipe.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "questionmark.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "singleBackslash.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "slash.json",
+      "error": "KeyFormat"
+    },
+    {
+      "file": "space.json",
+      "error": "KeyFormat"
+    }
+  ]
+}

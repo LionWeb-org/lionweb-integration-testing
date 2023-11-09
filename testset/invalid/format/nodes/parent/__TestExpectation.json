@@ -1,0 +1,33 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "arrayValue.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "booleanValue.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "empty.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "missing.json",
+      "error": "PropertyMissing"
+    },
+    {
+      "file": "numValue.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "objectValue.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "space.json",
+      "error": "IdFormat"
+    }
+  ]
+}
