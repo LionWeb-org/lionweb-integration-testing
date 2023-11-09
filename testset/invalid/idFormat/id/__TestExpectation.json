@@ -1,0 +1,61 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "ampersand.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "at.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "colon.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "containingSpace.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "dot.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "doubleBackslash.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "empty.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "hash.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "percent.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "pipe.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "questionmark.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "singleBackslash.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "slash.json",
+      "error": "IdFormat"
+    },
+    {
+      "file": "space.json",
+      "error": "IdFormat"
+    }
+  ]
+}

@@ -23,7 +23,7 @@
     },
     {
       "file": "indirectCircleA.json",
-      "error": "ChildMissingInParent"
+      "error": "ParentMissingInChild"
     },
     {
       "file": "indirectCircleB.json",
@@ -34,7 +34,7 @@
       "error": "ParentMissingInChild"
     },
     {
-      "file": "missingAnnotation.json",
+      "file": "missingChild.json",
       "error": "ChildMissingInParent"
     },
     {

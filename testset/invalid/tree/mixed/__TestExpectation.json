@@ -22,28 +22,12 @@
       "error": "ChildMissingInParent"
     },
     {
-      "file": "indirectCircleA.json",
+      "file": "indirectCircleX.json",
+      "error": "ParentMissingInChild"
+    },
+    {
+      "file": "indirectCircleY.json",
       "error": "ChildMissingInParent"
-    },
-    {
-      "file": "indirectCircleB.json",
-      "error": "CirculairParent"
-    },
-    {
-      "file": "indirectCircleC.json",
-      "error": "ParentMissingInChild"
-    },
-    {
-      "file": "missingAnnotation.json",
-      "error": "ChildMissingInParent"
-    },
-    {
-      "file": "missingParent.json",
-      "error": "ParentMissingInChild"
-    },
-    {
-      "file": "self.json",
-      "error": "ParentMissingInChild"
     }
   ]
 }

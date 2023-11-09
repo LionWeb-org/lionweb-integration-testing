@@ -1,0 +1,21 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "emptyString.json",
+      "error": "SerializationFormatVersion"
+    },
+    {
+      "file": "missing.json",
+      "error": "PropertyMissing"
+    },
+    {
+      "file": "nullValue.json",
+      "error": "PropertyNull"
+    },
+    {
+      "file": "numValue.json",
+      "error": "PropertyTypeIncorrect"
+    }
+  ]
+}

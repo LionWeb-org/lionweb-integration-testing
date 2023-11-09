@@ -1,0 +1,33 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "additionalProperty.json",
+      "error": "PropertyUnknown"
+    },
+    {
+      "file": "emptyObject.json",
+      "error": "PropertyMissing"
+    },
+    {
+      "file": "missing.json",
+      "error": "PropertyMissing"
+    },
+    {
+      "file": "noArray.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "nullMember.json",
+      "error": "ArrayContainsNull"
+    },
+    {
+      "file": "nullValue.json",
+      "error": "PropertyNull"
+    },
+    {
+      "file": "stringMember.json",
+      "error": "PropertyTypeIncorrect"
+    }
+  ]
+}
