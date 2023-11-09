@@ -2,7 +2,7 @@ repositories:
   - name: Org
     id: organization
   - name: Java
-    id: lioncore-java
+    id: lionweb-java
   - name: MPS
     id: lionweb-mps
   - name: OpenAPI
@@ -11,7 +11,7 @@ repositories:
     id: lionweb-typescript
 
 serializations:
-  - path: lioncore-java/core/src/test/resources/serialization/lioncore.json
+  - path: lionweb-java/core/src/test/resources/serialization/lioncore.json
     kind: m3
     repo: Java
   - path: lionweb-typescript/packages/artifacts/chunks/languages/lioncore.json
