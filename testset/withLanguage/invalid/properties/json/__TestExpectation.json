@@ -1,0 +1,17 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "empty.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "json.json",
+      "error": "PropertyTypeIncorrect"
+    },
+    {
+      "file": "space.json",
+      "error": "PropertyValueIncorrect"
+    }
+  ]
+}

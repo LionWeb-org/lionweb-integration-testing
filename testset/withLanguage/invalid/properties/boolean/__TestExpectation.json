@@ -1,0 +1,61 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "empty.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "falseAllCaps.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "fLowercase.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "fUppercase.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "leadingWhitespace.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "minusOne.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "nullString.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "one.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "space.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "tLowercase.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "trailingWhitespace.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "trueAllCaps.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "tUppercase.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "zero.json",
+      "error": "PropertyValueIncorrect"
+    }
+  ]
+}
