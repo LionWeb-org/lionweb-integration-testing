@@ -1,0 +1,29 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "empty.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "idRef.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "one.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "otherEnumKeyRef.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "space.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "zero.json",
+      "error": "PropertyValueIncorrect"
+    }
+  ]
+}

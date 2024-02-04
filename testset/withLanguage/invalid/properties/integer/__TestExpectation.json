@@ -1,0 +1,61 @@
+{
+  "nodes": 12,
+  "errors": [
+    {
+      "file": "binary.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "comma.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "dot.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "doubleMinus.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "doublePlus.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "empty.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "hex.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "leadingWhitespace.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "leadingZero.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "nullString.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "plusMinus.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "scientific.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "space.json",
+      "error": "PropertyValueIncorrect"
+    },
+    {
+      "file": "trailingWhitespace.json",
+      "error": "PropertyValueIncorrect"
+    }
+  ]
+}
