@@ -19,7 +19,7 @@
     },
     {
       "file": "duplicate.json",
-      "error": "ChildMissingInParent"
+      "error": "ParentMissingInChild"
     },
     {
       "file": "indirectCircleX.json",
@@ -27,7 +27,7 @@
     },
     {
       "file": "indirectCircleY.json",
-      "error": "ChildMissingInParent"
+      "error": "ParentMissingInChild"
     }
   ]
 }
