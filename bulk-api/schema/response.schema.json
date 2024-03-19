@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lionweb.io/lionweb-integration-testing/bulk-api/request.schema.json",
+  "title": "LionWeb Integration Testing Bulk API Response",
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "command": {
+      "type": "object",
+      "properties": {
+        "listPartitions": {
+          "description": "List available partitions",
+          "type": "object",
+          "properties": {
+            "chunk": {
+              "description": "SerializationChunk with all accessible Partitions in the Repository",
+              "$ref": "#/$defs/serializationChunk"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "chunk"
+          ]
+        },
+        "createPartitions": {
+          "description": "Create new partitions",
+          "type": "object",
+          "properties": {
+          },
+          "additionalProperties": false,
+          "maxProperties": 0
+        },
+        "deletePartitions": {
+          "description": "Delete partitions and all their contents",
+          "type": "object",
+          "properties": {
+          },
+          "additionalProperties": false,
+          "maxProperties": 0
+        },
+        "retrieve": {
+          "description": "Get nodes from repository",
+          "type": "object",
+          "properties": {
+            "chunk": {
+              "description": "SerializationChunk containing all nodes according to nodeIds and depthLimit parameters",
+              "$ref": "#/$defs/serializationChunk"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "chunk"
+          ]
+        },
+        "store": {
+          "description": "Put nodes into repository",
+          "type": "object",
+          "properties": {
+          },
+          "additionalProperties": false,
+          "maxProperties": 0
+        },
+        "ids": {
+          "description": "Get available ids",
+          "type": "object",
+          "properties": {
+            "nodeIds": {
+              "description": "List of ids guaranteed to be free",
+              "type": "array"
+            },
+            "items": {
+              "$ref": "#/$defs/idVariable"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "nodeIds"
+          ]
+        }
+      },
+      "minProperties": 1,
+      "maxProperties": 1
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "$ref": "#/$defs/id"
+          },
+          "data": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "propertyNames": {
+              "$ref": "#/$defs/id"
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "kind"
+        ]
+      }
+    }
+  },
+  "required": [
+    "success",
+    "command",
+    "messages"
+  ],
+  "additionalProperties": false,
+  "minProperties": 3,
+  "maxProperties": 3,
+  "$defs": {
+    "serializationChunk": {
+      "$ref": "./serialization.schema.json"
+    },
+    "id": {
+      "$ref": "./serialization.schema.json#/$defs/id"
+    },
+    "idVariable": {
+      "$ref": "./request.schema.json#/$defs/idVariable"
+    }
+  }
+}

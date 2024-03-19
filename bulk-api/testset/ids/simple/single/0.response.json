@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "command": {
+    "ids": {
+      "nodeIds": [
+        "$first"
+      ]
+    }
+  },
+  "messages": [
+  ]
+}
