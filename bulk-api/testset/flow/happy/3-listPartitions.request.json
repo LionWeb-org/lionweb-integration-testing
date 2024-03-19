@@ -1,8 +1,0 @@
-{
-  "clientId": "clientA",
-  "command": {
-    "listPartitions": {
-
-    }
-  }
-}
